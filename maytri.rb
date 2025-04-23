@@ -1,20 +1,20 @@
 class Maytri < Formula
   desc "Maytri CLI tool"
   homepage "https://github.com/Avidia-Cohort/maytri.cli"
-  version "0.1.19"
+  version "0.1.20"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/Avidia-Cohort/maytri-releases/releases/download/v0.1.19/maytri-macos-amd64.tar.gz"
-    sha256 "63c86e7e247e12b7df53ca9e912456306e377f0f388c3270a550ecff9d312169"
+    url "https://github.com/Avidia-Cohort/maytri-releases/releases/download/v0.1.20/maytri-macos-amd64.tar.gz"
+    sha256 "27b1df0f23a9c39359668839c15414f1586817b9facd546a81e0d8cc858ffe00"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Avidia-Cohort/maytri-releases/releases/download/v0.1.19/maytri-macos-arm64.tar.gz"
-    sha256 "f2901d7f53b68056d47dbd1572febeaa8b94e78bade168cab623a818e290582d"
+    url "https://github.com/Avidia-Cohort/maytri-releases/releases/download/v0.1.20/maytri-macos-arm64.tar.gz"
+    sha256 "a48fe55d892fa97c82dd0e5c27d7a1cf0435162ec1fce521902d58cc2e672f92"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/Avidia-Cohort/maytri-releases/releases/download/v0.1.19/maytri-linux-amd64.tar.gz"
-    sha256 "054745d0e02b976f1dcf502decf7a70475838f8f4e5aaad354f72ae70e554a1f"
+    url "https://github.com/Avidia-Cohort/maytri-releases/releases/download/v0.1.20/maytri-linux-amd64.tar.gz"
+    sha256 "c6a207acc3b74ef597a56e4137dce1bc3b55b1f31308c1c435f356836620b858"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/Avidia-Cohort/maytri-releases/releases/download/v0.1.19/maytri-linux-arm64.tar.gz"
-    sha256 "99011bb4176a9ec4405e79a70b4c7af5655b21df043851ba286acda27882d7a4"
+    url "https://github.com/Avidia-Cohort/maytri-releases/releases/download/v0.1.20/maytri-linux-arm64.tar.gz"
+    sha256 "a4da15beb9c8c3fd6a2414c6d3f36f9bcef9ea7b9a6d2a508dc179b38f94fc77"
   end
 
   def install
